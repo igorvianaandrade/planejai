@@ -1,10 +1,8 @@
-function App() {
+import { router } from '@/router'
+import { RouterProvider } from 'react-router-dom'
 
-  return (
-    <>
-      <h1>Vite + React + TypeScript</h1>
-    </>
-  )
+function App() {
+  return <RouterProvider router={router} />
 }
 
 export default App
